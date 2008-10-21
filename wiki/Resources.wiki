@@ -1,0 +1,9 @@
+#summary Links to sites with possible info
+
+= Sites =
+
+Fresh Resources:
+  * [http://code.google.com/p/cocoa-sharp-dev/]
+
+Possibly Outdated:
+  * [http://maxao.free.fr/xcode-plugin-interface/]
