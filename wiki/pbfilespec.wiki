@@ -1,0 +1,35 @@
+#summary Defines file types and their poperties.
+#labels Description-File
+
+= Introduction =
+
+Defines file types and their poperties.
+
+= Settings =
+
+|| Identifier || string || The Identifier ||
+|| BasedOn || string || Is it based on a different file type. ||
+|| Extensions || array || possible extensions  ||
+|| MagicWord || array ||  ||
+|| ComputerLanguage || string ||  ||
+|| Language || string ||  ||
+|| IsExecutable || bool ||  ||
+|| IncludeInIndex || bool ||  ||
+
+
+= Example =
+
+This is Ruby's definition. Copied from /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/Resources/Standard file types.pbfilespec
+{{{
+(
+	{
+            Identifier = text.script.ruby;
+            BasedOn = text.script;
+            Extensions = (rb,rbw);
+            MagicWord = ("#!/bin/ruby", "#! /bin/ruby", "#!/usr/bin/ruby", "#! /usr/bin/ruby", "#!/usr/local/bin/ruby", "#! /usr/local/bin/ruby");
+            ComputerLanguage = shell.ruby;
+            Language = "xcode.lang.ruby";
+            IsExecutable = YES;
+        },
+)
+}}}
