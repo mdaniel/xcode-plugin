@@ -11,18 +11,37 @@
 
 Defines file types and their poperties.
 
+
 ------ 
 
 = Parameters =
 
-|| Identifier || string || Identifying name  ||
-|| Name || string || is it not obvious? ||
-|| BasedOn || string || other file type this is based on ||
-|| Extensions || list || extensions to recognize the file type ||
-|| MagicWord || list ||  ||
-|| ComputerLanguage || string ||  ||
-|| Language || string ||  ||
-|| IsExecutable || bool ||  ||
+|| `Identifier` || string || Identifying name  ||
+|| `Name` || string || is it not obvious? ||
+|| `BasedOn` || string || other file type this is based on ||
+|| `ComputerLanguage` || string ||  ||
+|| `Language` || string ||  ||
+|| `Class` || string ||  ||
+
+|| `Extensions` || list || extensions to recognize the file type ||
+|| `MagicWord` || list ||  ||
+|| `FilenamePatterns` || string ||  ||
+|| `MIMETypes` || list ||  ||
+
+|| `IsExecutable` || bool ||  ||
+|| `RequiresHardTabs` || bool ||  ||
+|| `AppliesToBuildRules` || bool ||  ||
+|| `IsScannedForIncludes` || bool ||  ||
+|| `TypeCodes` || list ||  ||
+|| `PlistStructureDefinition` || string ||  ||
+|| `ChangesCauseDependencyGraphInvalidation` || bool ||  ||
+|| `IsBuildPropertiesFile` || bool ||  ||
+|| `CanSetIncludeInIndex` || bool ||  ||
+|| `IncludeInIndex` || bool ||  ||
+|| `IsProjectWrapper` || bool ||  ||
+|| `IsStaticLibrary` || bool ||  ||
+|| `ContainsNativeCode` || bool ||  ||
+
 
 ------
 
