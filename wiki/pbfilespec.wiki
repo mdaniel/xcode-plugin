@@ -19,7 +19,7 @@ Defines file types and their poperties.
 
 = Example =
 
-This is Ruby's definition. Copied from /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/Resources/Standard file types.pbfilespec
+This is Ruby's definition. Copied from _/Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/Resources/Standard file types.pbfilespec_
 {{{
 (
 	{
