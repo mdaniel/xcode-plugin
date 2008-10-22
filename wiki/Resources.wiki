@@ -1,4 +1,5 @@
 #summary Links to places with possible info
+#labels Featured
 
 = Built in Location=
 `/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/`
