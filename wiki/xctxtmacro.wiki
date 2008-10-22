@@ -1,5 +1,5 @@
 #summary Macros and snippets.
-#labels Description-File
+#labels FileTypes
 
 = TOC =
 
