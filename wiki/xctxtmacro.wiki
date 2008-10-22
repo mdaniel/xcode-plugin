@@ -11,20 +11,18 @@
 
 Macros and snippets.
 
------- 
 
 = Parameters =
 
-|| `Identifier` || string ||  ||
-|| `Name` || string ||  ||
-|| `IsMenu` || string ||  ||
-|| `IncludeContexts` || list ||  ||
-|| `TextString` || string ||  ||
-|| `IsMenuItem` || bool ||  ||
+|| `Identifier` || string || Unique Identifier for the macro ||
+|| `Name` || string || Name of the macro ||
+|| `BasedOn ` || string || Unique Identifier of a parent macro  ||
+|| `IsMenu` || string || Is it a menu? ||
+|| `IsMenuItem` || bool || Is the macro visible in the menu? ||
+|| `IncludeContexts` || list || language context this macro is available in ||
+|| `TextString` || string || The macro string itself () ||
 || `CompletionPrefix` || string ||  ||
 
-
-------
 
 = Example =
 
