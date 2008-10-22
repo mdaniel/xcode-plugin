@@ -3,76 +3,28 @@
 
 = TOC =
 
- * [#Introduction]
- * [#Parameters]
- * [#Example]
+ * [#Introduction Introduction]
+ * [#Parameters Parameters]
+ * [#Example Example]
 
 = Introduction =
 
 Defines file types and their poperties.
 
-
----- 
+------ 
 
 = Parameters =
 
-== Identifier ==
+|| Identifier || string || Identifying name  ||
+|| Name || string || is it not obvious? ||
+|| BasedOn || string || other file type this is based on ||
+|| Extensions || list || extensions to recognize the file type ||
+|| MagicWord || list ||  ||
+|| ComputerLanguage || string ||  ||
+|| Language || string ||  ||
+|| IsExecutable || bool ||  ||
 
-*Type:* String
-
-*Description:* Identifier
-
-
-== BasedOn ==
-
-*Type:* String
-
-*Description:* Is it based on a different file type
-
-
-== Extensions ==
-
-*Type:* array
-
-*Description:* possible extensions
-
-
-== MagicWord ==
-
-*Type:* array
-
-*Description:* 
-
-
-== ComputerLanguage ==
-
-*Type:* array
-
-*Description:* 
-
-
-== Language ==
-
-*Type:* array
-
-*Description:* 
-
-
-== IsExecutable ==
-
-*Type:* array
-
-*Description:* 
-
-
-== IncludeInIndex ==
-
-*Type:* array
-
-*Description:* 
-
-
----- 
+------
 
 = Example =
 
