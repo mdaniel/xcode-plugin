@@ -28,7 +28,7 @@ Defines syntax types
 
 = Example =
 
-`/Developer/Library/PrivateFrameworks/XcodeEdit.framework/Versions/A/Resources/Built-in Syntax Types.xcsynspec`
+From the D for XCode plugin
 {{{
 (
     {
