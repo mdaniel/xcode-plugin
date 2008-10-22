@@ -25,8 +25,15 @@ This is Ruby's definition. Copied from /Developer/Library/PrivateFrameworks/DevT
 	{
             Identifier = text.script.ruby;
             BasedOn = text.script;
-            Extensions = (rb,rbw);
-            MagicWord = ("#!/bin/ruby", "#! /bin/ruby", "#!/usr/bin/ruby", "#! /usr/bin/ruby", "#!/usr/local/bin/ruby", "#! /usr/local/bin/ruby");
+            Extensions = ( rb, rbw );
+            MagicWord = (
+                "#!/bin/ruby", 
+                "#! /bin/ruby", 
+                "#!/usr/bin/ruby", 
+                "#! /usr/bin/ruby", 
+                "#!/usr/local/bin/ruby", 
+                "#! /usr/local/bin/ruby"
+             );
             ComputerLanguage = shell.ruby;
             Language = "xcode.lang.ruby";
             IsExecutable = YES;
