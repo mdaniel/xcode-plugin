@@ -1,0 +1,65 @@
+#summary Macros and snippets.
+#labels Description-File
+
+= TOC =
+
+ * [#Introduction Introduction]
+ * [#Parameters Parameters]
+ * [#Example Example]
+
+= Introduction =
+
+Macros and snippets.
+
+------ 
+
+= Parameters =
+
+|| `Identifier` || string ||  ||
+|| `Name` || string ||  ||
+|| `IsMenu` || string ||  ||
+|| `IncludeContexts` || list ||  ||
+|| `TextString` || string ||  ||
+|| `IsMenuItem` || bool ||  ||
+|| `CompletionPrefix` || string ||  ||
+
+
+------
+
+= Example =
+
+{{{
+(
+	{
+		Identifier = erlang;
+		Name = Erlang;
+		IsMenu = YES;
+		IncludeContexts = (
+			"xcode.lang.erlang",
+		);
+	},
+	{
+		Identifier = "erlang.preprocessor";
+		BasedOn = erlang;
+		TextString = "-$(Tag)($(Contents)).";
+	},
+	{
+		Identifier = "erlang.preprocessor.module";
+		BasedOn = "erlang.preprocessor";
+		Name = Module;
+		IsMenuItem = YES;
+		Tag = module;
+		Contents = "<#!modulename!#>";
+		CompletionPrefix = "module";
+	},
+	{
+		Identifier = "erlang.preprocessor.author";
+		BasedOn = "erlang.preprocessor";
+		Name = Author;
+		IsMenuItem = NO;
+		Tag = author;
+		Contents = "<#!author!#>";
+		CompletionPrefix = "author";
+	},
+)
+}}}
