@@ -10,6 +10,7 @@
 = Introduction =
 
 Defines file types and their poperties.
+*File Types are now defined in a .[xcspec] file.*
 
 = Parameters =
 
