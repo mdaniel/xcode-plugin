@@ -11,9 +11,6 @@
 
 Defines file types and their poperties.
 
-
------- 
-
 = Parameters =
 
 || `Identifier` || string || Identifying name  ||
@@ -41,9 +38,6 @@ Defines file types and their poperties.
 || `IsProjectWrapper` || bool ||  ||
 || `IsStaticLibrary` || bool ||  ||
 || `ContainsNativeCode` || bool ||  ||
-
-
-------
 
 = Example =
 
