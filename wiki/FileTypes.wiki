@@ -1,5 +1,5 @@
 #summary Definition Files For Plugins
-#labels Description-File,Featured,Description-API
+#labels FileTypes,Featured
 
 = Introduction=
 
