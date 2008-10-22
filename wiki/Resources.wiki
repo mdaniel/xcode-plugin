@@ -11,7 +11,7 @@
 = Sites =
 
 Fresh Resources:
-  * [http://code.google.com/p/cocoa-sharp-dev/]
-
-Possibly Outdated:
-  * [http://maxao.free.fr/xcode-plugin-interface/]
+  * [http://maxao.free.fr/xcode-plugin-interface/ Damien's original API work] (Some things may be outdated)
+  * [http://code.google.com/p/cocoa-sharp-dev/ CSharpPlugin]
+  * [http://michelf.com/projects/d-for-xcode/ D for XCode]
+  * [http://www.hoovy.org/HaskellXcodePlugin/ Haskell XCode Plugin]
