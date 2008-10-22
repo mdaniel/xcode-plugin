@@ -1,7 +1,0 @@
-#summary Sidebar that is shown on all Wiki pages
-
-= Main Menu =
-
-  * [Introduction]
-  * [FileTypes]
-  * [Resources]
