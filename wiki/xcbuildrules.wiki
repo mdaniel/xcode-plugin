@@ -1,4 +1,5 @@
 #summary Defines which compiler types are to be used for which file types.
+#labels FileTypes
 
 = TOC =
 
