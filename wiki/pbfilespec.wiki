@@ -1,25 +1,82 @@
 #summary Defines file types and their poperties.
 #labels Description-File
 
+= TOC =
+
+ * [#Introduction]
+ * [#Parameters]
+ * [#Example]
+
 = Introduction =
 
 Defines file types and their poperties.
 
-= Settings =
 
-|| Identifier || string || The Identifier ||
-|| BasedOn || string || Is it based on a different file type. ||
-|| Extensions || array || possible extensions  ||
-|| MagicWord || array ||  ||
-|| ComputerLanguage || string ||  ||
-|| Language || string ||  ||
-|| IsExecutable || bool ||  ||
-|| IncludeInIndex || bool ||  ||
+---- 
 
+= Parameters =
+
+== Identifier ==
+
+*Type:* String
+
+*Description:* Identifier
+
+
+== BasedOn ==
+
+*Type:* String
+
+*Description:* Is it based on a different file type
+
+
+== Extensions ==
+
+*Type:* array
+
+*Description:* possible extensions
+
+
+== MagicWord ==
+
+*Type:* array
+
+*Description:* 
+
+
+== ComputerLanguage ==
+
+*Type:* array
+
+*Description:* 
+
+
+== Language ==
+
+*Type:* array
+
+*Description:* 
+
+
+== IsExecutable ==
+
+*Type:* array
+
+*Description:* 
+
+
+== IncludeInIndex ==
+
+*Type:* array
+
+*Description:* 
+
+
+---- 
 
 = Example =
 
-This is Ruby's definition. Copied from _/Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/Resources/Standard file types.pbfilespec_
+This is Ruby's definition. Copied from `/Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/Resources/Standard file types.pbfilespec`
 {{{
 (
 	{
