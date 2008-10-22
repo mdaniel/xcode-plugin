@@ -1,5 +1,5 @@
 #summary Defines file types and their poperties.
-#labels Description-File
+#labels FileTypes
 
 = TOC =
 
