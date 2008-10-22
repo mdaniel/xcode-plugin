@@ -1,4 +1,4 @@
 #summary Sidebar that is shown on all pages
 
-== [FrontPage] ==
-== [FileTypes] ==
+  * [FrontPage] 
+  * [FileTypes] 
