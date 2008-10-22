@@ -1,5 +1,5 @@
 #summary Defines syntax types
-#labels Description-File
+#labels FileTypes
 
 = TOC =
 
