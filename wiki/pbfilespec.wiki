@@ -13,20 +13,20 @@ Defines file types and their poperties.
 
 = Parameters =
 
-|| `Identifier` || string || Identifying name  ||
-|| `Name` || string || is it not obvious? ||
-|| `BasedOn` || string || other file type this is based on ||
-|| `ComputerLanguage` || string ||  ||
+|| `Identifier` || string || Unique Identifier  ||
+|| `Name` || string || Name of the filetype ||
+|| `BasedOn` || string || File type this is based on ||
+|| `ComputerLanguage` || string || ||
 || `Language` || string ||  ||
 || `Class` || string ||  ||
 
-|| `Extensions` || list || extensions to recognize the file type ||
-|| `MagicWord` || list ||  ||
-|| `FilenamePatterns` || string ||  ||
+|| `Extensions` || list || Extensions to recognize the file ||
+|| `MagicWord` || list || Sting inside the file to recognize the file ||
+|| `FilenamePatterns` || string || Regular expression to recognize the file ||
 || `MIMETypes` || list ||  ||
 
-|| `IsExecutable` || bool ||  ||
-|| `RequiresHardTabs` || bool ||  ||
+|| `IsExecutable` || bool || Is the file directly executable ||
+|| `RequiresHardTabs` || bool || Are soft tabs allowed ||
 || `AppliesToBuildRules` || bool ||  ||
 || `IsScannedForIncludes` || bool ||  ||
 || `TypeCodes` || list ||  ||
