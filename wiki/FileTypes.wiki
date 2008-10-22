@@ -11,14 +11,6 @@ These are the language and compiler definitions for XCode 3.0 and up.
 
 Defines file types and their poperties.
 
-== .[pbpackspec] ==
-
-Defines package types.
-
-== .[pbprodpec] ==
-
-Defines products out of package types.
-
 == .[xcbuildrules] ==
 
 Defines which compiler types are to be used for which file types
@@ -33,7 +25,7 @@ Defines syntax types
 
 == .[xcspec] ==
 
-Defines compilers, tools and other things.
+Defines Compilers, Tools, Architectures, Package Types, Product Types and more.
 
 == .[xctxtmacro] ==
 
