@@ -1,0 +1,57 @@
+#summary Defines syntax types
+#labels Description-File
+
+= TOC =
+
+ * [#Introduction Introduction]
+ * [#Parameters Parameters]
+ * [#Example Example]
+
+= Introduction =
+
+Defines syntax types
+
+------ 
+
+= Parameters =
+
+|| `Identifier ` || string ||  ||
+|| `Name ` || string || ||
+|| `BasedOn` || string ||  ||
+|| `IncludeInPrefs ` || bool ||  ||
+|| `NameFormat ` || string ||  ||
+|| `Color ` || string || default color ||
+|| `OldUserDefault ` || string || Only used by built in filetypes ||
+
+
+------
+
+= Example =
+
+`/Developer/Library/PrivateFrameworks/XcodeEdit.framework/Versions/A/Resources/Built-in Syntax Types.xcsynspec`
+{{{
+(
+    {
+        Identifier = "xcode.syntax.d.module";
+        IncludeInPrefs = NO;
+	NameFormat = "module %@";
+    },
+    {
+        Identifier = "xcode.syntax.d.import";
+        IncludeInPrefs = NO;
+	NameFormat = "import %@";
+    },
+	
+	// MARK: Functions and Methods
+	{
+		Identifier = "xcode.syntax.definition.d.function";
+		BasedOn = "xcode.syntax.definition.function";
+		IncludeInPrefs = NO;
+	},
+	{
+		Identifier = "xcode.syntax.declaration.d.function";
+		BasedOn = "xcode.syntax.declaration.function";
+		IncludeInPrefs = NO;
+	},
+)
+}}}
