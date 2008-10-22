@@ -11,13 +11,12 @@
 
 Defines syntax types
 
------- 
 
 = Parameters =
 
-|| `Identifier ` || string ||  ||
-|| `Name ` || string || ||
-|| `BasedOn` || string ||  ||
+|| `Identifier ` || string || Unique Identifier  ||
+|| `Name ` || string || Name ||
+|| `BasedOn` || string || Unique Identifier of parent ||
 || `IncludeInPrefs ` || bool ||  ||
 || `NameFormat ` || string ||  ||
 || `Color ` || string || default color ||
