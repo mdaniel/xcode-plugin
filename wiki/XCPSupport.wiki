@@ -1,5 +1,0 @@
-#summary XCPSupport
-
-= Introduction =
-
-XCPSupport XCPBuildSystem
