@@ -1,0 +1,40 @@
+#summary Definition Files For Plugins
+#labels Description-File,Featured,Description-API
+
+= Introduction=
+
+These are the language and compiler definitions for XCode 3.0 and up.
+
+= File Types =
+
+== .[pbfilespec] ==
+
+Defines file types and their poperties.
+
+== .[pbpackspec] ==
+
+Defines package types.
+
+== .[pbprodpec] ==
+
+Defines products out of package types.
+
+== .[xcbuildrules] ==
+
+Defines which compiler types are to be used for which file types
+
+== .[xclangspec] ==
+
+Defines syntax highligting and recognition for langages.
+
+== .[xcsynspec] ==
+
+Defines syntax types
+
+== .[xcspec] ==
+
+Defines compilers, tools and other things.
+
+== .[xctxtmacro] ==
+
+Macros and snippets.
