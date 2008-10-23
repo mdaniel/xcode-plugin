@@ -1,0 +1,32 @@
+#summary Defines which compiler types are to be used for which file types.
+#labels Specifications
+
+= TOC =
+
+ * [#Introduction Introduction]
+ * [#Parameters Parameters]
+ * [#Example Example]
+
+= Introduction =
+
+Creates build rules. Define compilers to be used for file types. Written in a file with the ending .xcbuildrules
+
+
+= Parameters =
+
+|| `Name` || string || Name  ||
+|| `FileType` || string || Filetype identifier as defined in .[pbfilespec] ||
+|| `CompilerSpec` || string || Compiler identifier as defined in a .[xcspec] ||
+
+
+= Example =
+
+{{{
+(
+	{
+		Name = "Erlang source rule";
+		FileType = "sourcecode.erlang.erl";
+		CompilerSpec = "org.erlang.compiler.erlc";
+	},
+)
+}}}
