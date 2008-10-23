@@ -15,8 +15,8 @@ Creates build rules. Define compilers to be used for file types. Written in a fi
 = Parameters =
 
 || `Name` || string || Name  ||
-|| `FileType` || string || Filetype identifier as defined in .[pbfilespec] ||
-|| `CompilerSpec` || string || Compiler identifier as defined in a .[xcspec] ||
+|| `FileType` || string || Filetype identifier as defined in a FileTypeSpecification ||
+|| `CompilerSpec` || string || Compiler identifier as defined in a CompilerSpecification ||
 
 
 = Example =
