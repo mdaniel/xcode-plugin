@@ -9,7 +9,7 @@
 
 = Introduction =
 
-Defines file types and their poperties.
+Defines file types and their poperties. Written in a file with the ending .xcspec
 
 = Parameters =
 
