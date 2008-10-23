@@ -13,7 +13,7 @@ Defines Package Types. Written in a file with the ending .xcspec
 
 = Parameters =
 
-|| `Type` || `"Package Type"` || Required ||
+|| `Type` || `"PackageType"` || Required ||
 || `Identifier` || string || Unique Identifier  ||
 || `Name` || string || Name of the package type ||
 || `Description` || string ||  ||
