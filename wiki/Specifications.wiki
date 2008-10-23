@@ -1,9 +1,9 @@
-#summary A list of Specification Files
+#summary A list of Specification types
 #labels Featured,Specifications
 
 = Introduction =
 
-Add your content here.
+These are the specification types for XCode 3.0 and up.
 
 
 = Specifications =
