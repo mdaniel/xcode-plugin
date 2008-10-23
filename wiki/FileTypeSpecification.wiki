@@ -13,7 +13,7 @@ Defines file types and their poperties. Written in a file with the ending .xcspe
 
 = Parameters =
 
-|| `Type` || `FileType` || Required ||
+|| `Type` || `"FileType"` || Required ||
 || `Identifier` || string || Unique Identifier  ||
 || `Name` || string || Name of the filetype ||
 || `BasedOn` || string || File type this is based on ||
