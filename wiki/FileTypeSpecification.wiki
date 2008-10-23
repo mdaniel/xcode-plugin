@@ -1,0 +1,45 @@
+#summary Defines file types and their poperties.
+#labels Specifications
+
+= TOC =
+
+ * [#Introduction Introduction]
+ * [#Parameters Parameters]
+ * [#Example Example]
+
+= Introduction =
+
+Defines file types and their poperties.
+
+= Parameters =
+
+|| `Type` || string || Must Always be "FileType" ||
+|| `Identifier` || string || Unique Identifier  ||
+|| `Name` || string || Name of the filetype ||
+|| `BasedOn` || string || File type this is based on ||
+|| `ComputerLanguage` || string || ||
+|| `Language` || string ||  ||
+|| `Class` || string ||  ||
+
+|| `Extensions` || list || Extensions to recognize the file ||
+|| `MagicWord` || list || Sting inside the file to recognize the file ||
+|| `FilenamePatterns` || string || Regular expression to recognize the file ||
+|| `MIMETypes` || list ||  ||
+
+
+= Example =
+
+From the ASC Specifications
+{{{
+(
+	{
+		Type = FileType;
+		Identifier = sourcecode.asc;
+		BasedOn = sourcecode;
+		Name = "ASC file";
+		Extensions = (asc, lst);
+		//ComputerLanguage = csharp;
+		Language = "mono.lang.asc";
+	}
+)
+}}}
