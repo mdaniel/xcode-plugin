@@ -6,6 +6,24 @@
 Add your content here.
 
 
-= Details =
+= Specifications =
 
-= [BuildRules] =
+== [FileTypeSpecification] ==
+
+== [BuildRuleSpecification] ==
+
+== [LanguageSpecification] ==
+
+== [SyntaxSpecification] ==
+
+== [MacroSpecification] ==
+
+== [CompilerSpecification] ==
+
+== [ToolSpecification] ==
+
+== [PackageTypeSpecification] ==
+
+== [ProductTypeSpecification] ==
+
+== [ArchitectureSpecification] ==
