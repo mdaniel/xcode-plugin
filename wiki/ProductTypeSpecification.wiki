@@ -15,25 +15,20 @@ Defines Product Types. Written in a file with the ending .xcspec
 
 || `Type` || `"ProductType"` || Required ||
 || `Identifier` || string || Unique Identifier  ||
-|| `Name` || string || Name of the filetype ||
-|| `Description` || string || File type this is based on ||
-|| `BasedOn` || string || ||
+|| `Name` || string || Name of the product type ||
+|| `Description` || string ||  ||
+|| `BasedOn` || string || product type  this is based on ||
 || `IconNamePrefix` || string || ||
 || `DefaultTargetName` || string ||  ||
 || `AllowedBuildPhaseTypes` || list ||  ||
 || `PackageTypes` || list ||  ||
 
 || `Class` || string ||  ||
-|| `DefaultBuildProperties` || list ||  ||
+|| `DefaultBuildProperties` || dict ||  ||
 || `IsWrapper` || bool ||  ||
 || `HasInfoPlist` || bool ||  ||
 || `HasInfoPlistStrings` || bool ||  ||
-|| `PackageTypes` || list ||  ||
-|| `PackageTypes` || list ||  ||
-|| `PackageTypes` || list ||  ||
-|| `PackageTypes` || list ||  ||
-|| `PackageTypes` || list ||  ||
-|| `PackageTypes` || list ||  ||
+
 
 = Example =
 
