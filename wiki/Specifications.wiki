@@ -10,13 +10,21 @@ These are the specification types for XCode 3.0 and up.
 
 == [FileTypeSpecification] ==
 
+Defines file types and their poperties
+
 == [BuildRuleSpecification] ==
+
+Creates build rules. Define compilers to be used for file types. Written in a file with the ending .xcbuildrules
 
 == [LanguageSpecification] ==
 
 == [SyntaxSpecification] ==
 
+Defines syntax types. Files have the ending .xcsynspec
+
 == [MacroSpecification] ==
+
+Macros and snippets. Written in a file with the ending .xctxtmacro
 
 == [CompilerSpecification] ==
 
