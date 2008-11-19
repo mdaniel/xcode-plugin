@@ -10,31 +10,14 @@ These are the specification types for XCode 3.0 and up.
 
 = Specifications =
 
-
-== [FileTypeSpecification] ==
-
-Defines file types and their poperties
-
-== [BuildRuleSpecification] ==
-
-Creates build rules. Define compilers to be used for file types. Written in a file with the ending .xcbuildrules
-
-== [LanguageSpecification] ==
-
-== [SyntaxSpecification] ==
-
-Defines syntax types. Files have the ending .xcsynspec
-
-== [MacroSpecification] ==
-
-Macros and snippets. Written in a file with the ending .xctxtmacro
-
-== [CompilerSpecification] ==
-
-== [ToolSpecification] ==
-
-== [PackageTypeSpecification] ==
-
-== [ProductTypeSpecification] ==
-
-== [ArchitectureSpecification] ==
+|| *Type*                      || *Extension*   || *Description* ||
+|| [FileTypeSpecification]     || .xcspec       || Defines file types and their poperties ||
+|| [BuildRuleSpecification]    || .xcbuildrules || Creates build rules. Define compilers to be used for file types. ||
+|| [LanguageSpecification]     || .xclangspec   || Defines the language syntax for highlighting and recognition. ||
+|| [SyntaxSpecification]       || .xcsynspec    || Defines syntax types. ||
+|| [MacroSpecification]        || .xctxtmacro   || Macros and snippets. Written in a file with the ending .xctxtmacro ||
+|| [CompilerSpecification]     || .xcspec       ||  ||
+|| [ToolSpecification]         || .xcspec       ||  ||
+|| [PackageTypeSpecification]  || .xcspec       ||  ||
+|| [ProductTypeSpecification]  || .xcspec       ||  ||
+|| [ArchitectureSpecification] || .xcspec       ||  ||
