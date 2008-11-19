@@ -1,11 +1,7 @@
 #summary Defines file types and their poperties.
 #labels Specifications
 
-= TOC =
-
- * [#Introduction Introduction]
- * [#Parameters Parameters]
- * [#Example Example]
+<wiki:toc max_depth="1" />
 
 = Introduction =
 
