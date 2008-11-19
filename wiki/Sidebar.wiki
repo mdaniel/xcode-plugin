@@ -1,5 +1,10 @@
 #summary Sidebar that is shown on all pages
+#labels Hidden
 
   * [FrontPage] 
   * [Specifications] 
   * [APIClasses] 
+
+
+  * [Projects] 
+  * [References]
