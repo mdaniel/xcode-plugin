@@ -1,6 +1,8 @@
 #summary A list of Specification types
 #labels Featured,Specifications
 
+<wiki:toc max_depth="1" />
+
 = Introduction =
 
 These are the specification types for XCode 3.0 and up.
