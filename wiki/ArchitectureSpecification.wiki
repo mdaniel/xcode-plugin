@@ -1,11 +1,7 @@
 #summary Defines Architectures.
 #labels Specifications
 
-= TOC =
-
- * [#Introduction Introduction]
- * [#Parameters Parameters]
- * [#Example Example]
+<wiki:toc max_depth="1" />
 
 = Introduction =
 
