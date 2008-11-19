@@ -10,6 +10,7 @@ These are the specification types for XCode 3.0 and up.
 
 = Specifications =
 
+
 == [FileTypeSpecification] ==
 
 Defines file types and their poperties
