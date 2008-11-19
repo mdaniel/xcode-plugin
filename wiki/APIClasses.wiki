@@ -8,40 +8,41 @@ Here is a list of a few of the classes.
 
 = List =
 
+
 *Specification Classes: *
  
- * XCCompilerSpecification
- * XCLinkerSpecification
- * XCProductTypeSpecification
- * XCStandaloneExecutableProductType
- * XCPropertyDomainSpecification
- * PBXCompilerSpecificationGcc
+ * [XCCompilerSpecification]
+ * [XCLinkerSpecification]
+ * [XCProductTypeSpecification]
+ * [XCStandaloneExecutableProductType]
+ * [XCPropertyDomainSpecification]
+ * [PBXCompilerSpecificationGcc]
 
 *Other: *
 
- * XCDependencyNode
- * XCDependencyCommand
-
- * PBXFileReference
- * PBXBuildFile
- * PBXBuildPhase
- * PBXTarget
- * PBXBuildContext
- * PBXTargetBuildContext
- * PBXFileType
- * PBXCFBundleWrapperFileType
- * PBXFrameworkWrapperFileType
-
- * PBXSourceScanner
- * PBXCSourceScanner
- * PBXSourceTokens
- * PBXScannerItem
- * PBXSourceScannerItem
- * PBXSourceLexer
- * PBXLexicalRules
-
- * XCOutputStreams
- * XCOutputStream
- * XCFilterOutputStream
- * XCBuildCommandOutputParser
- * XCBuildCommandOutputParserDelegates
+ * [XCDependencyNode]
+ * [XCDependencyCommand]
+   
+ * [PBXFileReference]
+ * [PBXBuildFile]
+ * [PBXBuildPhase]
+ * [PBXTarget]
+ * [PBXBuildContext]
+ * [PBXTargetBuildContext]
+ * [PBXFileType]
+ * [PBXCFBundleWrapperFileType]
+ * [PBXFrameworkWrapperFileType]
+   
+ * [PBXSourceScanner]
+ * [PBXCSourceScanner]
+ * [PBXSourceTokens]
+ * [PBXScannerItem]
+ * [PBXSourceScannerItem]
+ * [PBXSourceLexer]
+ * [PBXLexicalRules]
+   
+ * [XCOutputStreams]
+ * [XCOutputStream]
+ * [XCFilterOutputStream]
+ * [XCBuildCommandOutputParser]
+ * [XCBuildCommandOutputParserDelegates]
