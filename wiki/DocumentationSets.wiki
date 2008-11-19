@@ -1,0 +1,9 @@
+#summary Info on Documentation Sets
+#labels DocumentationSets
+
+= Introduction =
+
+Documentation Sets are one of the few things Apple has actually documented well.
+Some basic info will be placed here later but for now take a look at the Apple site
+
+* [http://developer.apple.com/documentation/DeveloperTools/Conceptual/Documentation_Sets/Introduction/chapter_1_section_1.html Documentation Set Guide]
