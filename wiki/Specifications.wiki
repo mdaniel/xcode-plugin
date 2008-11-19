@@ -1,7 +1,7 @@
 #summary A list of Specification types
 #labels Featured,Specifications
 
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="2" />
 
 = Introduction =
 
