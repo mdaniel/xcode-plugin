@@ -1,0 +1,19 @@
+#summary A list of Xcode plugin projects
+#labels Featured
+
+= Active =
+
+*Member Projects:*
+ * *[http://github.com/JonGretar/erlangxcode/wikis ErlangXcode]* - A basic plugin for the Erlang language and runtime.
+
+*These projects are in active development:*
+ * *[http://michelf.com/projects/d-for-xcode/ D for Xcode]* - D language plugin.
+
+= Inactive =
+
+*These projects seem to have little activity. Some may not work in Xcode 3:*
+ * *[http://code.google.com/p/cocoa-sharp-dev/ C# Xcode plugin]* - C# and Cocoa# language plugin.
+ * *[http://www.hoovy.org/HaskellXcodePlugin/ Haskell]* - Haskell language plugin.
+ * *[http://www.macresearch.org/xcode_gfortran_plugin_update Xcode/gFortran]* - gFortran language plugin.
+ * *[http://www.tomsci.com/xcodeplugin/ Xcode Plugin for Symbian OS]* - Way outdated.
+ * *[http://www.obdev.at/products/completion-dictionary/ Completion Dictionary]* - code completion plugin.
