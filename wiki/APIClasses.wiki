@@ -1,6 +1,8 @@
 #summary List of Xcode's Objective-C Classes
 #labels Featured,Objective-C
 
+<wiki:toc max_depth="2" />
+
 = Introduction =
 
 Here is a list of a few of the classes.
@@ -9,7 +11,7 @@ Here is a list of a few of the classes.
 = List =
 
 
-*Specification Classes: *
+==Specification Classes ==
  
  * [XCCompilerSpecification]
  * [XCLinkerSpecification]
@@ -18,7 +20,7 @@ Here is a list of a few of the classes.
  * [XCPropertyDomainSpecification]
  * [PBXCompilerSpecificationGcc]
 
-*Other: *
+== Other ==
 
  * [XCDependencyNode]
  * [XCDependencyCommand]
