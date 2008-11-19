@@ -1,11 +1,7 @@
 #summary Defines which compiler types are to be used for which file types.
 #labels Specifications
 
-= TOC =
-
- * [#Introduction Introduction]
- * [#Parameters Parameters]
- * [#Example Example]
+<wiki:toc max_depth="1" />
 
 = Introduction =
 
