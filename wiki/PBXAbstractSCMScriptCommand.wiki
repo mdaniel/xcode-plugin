@@ -12,20 +12,44 @@ The `PBXAbstractSCMScriptCommand` class provides an interface for running source
 
 = Tasks =
 ----
-[PBXAbstractSCMScriptCommand#initWithCommandDescription - (id)initWithCommandDescription:(id)arg1]
+== Creating a PBXAbstractSCMScriptCommand Object ==
+[#initWithCommandDescription: - initWithCommandDescription:]
 
-[PBXAbstractSCMScriptCommand#returnValueFromInfo - (id)returnValueFromInfo:(id)arg1]
+== Obtaining Return Values Object ==
+[#returnValueFromInfo: - returnValueFromInfo:]
 
-[PBXAbstractSCMScriptCommand#returnScriptResultUsingInfo - (void)returnScriptResultUsingInfo:(id)arg1]
+[#returnScriptResultUsingInfo: - returnScriptResultUsingInfo:]
 
-[PBXAbstractSCMScriptCommand#requestDidFinish - (void)requestDidFinish:(id)arg1]
+== Requests ==
+[#requestDidFinish: - requestDidFinish:]
 
-[PBXAbstractSCMScriptCommand#performRequestWithItems_onSCMManager - (id)performRequestWithItems:(id)arg1 onSCMManager:(id)arg2]
+[#performRequestWithItems:onSCMManager: - performRequestWithItems:onSCMManager:]
 
-[PBXAbstractSCMScriptCommand#runCommandOnItems_inProject - (id)runCommandOnItems:(id)arg1 inProject:(id)arg2]
+[#runCommandOnItems:inProject: - runCommandOnItems:inProject:]
 
-[PBXAbstractSCMScriptCommand#runCommandOnProject - (id)runCommandOnProject:(id)arg1]
+[#runCommandOnProject: - runCommandOnProject:]
 
-[PBXAbstractSCMScriptCommand#argumentsForRequest - (id)argumentsForRequest]
+[#argumentsForRequest - argumentsForRequest]
 
-[#requestType - (id)requestType]
+[#requestType - requestType]
+
+= Instance Methods =
+----
+== initWithCommandDescription: ==
+`- (id)initWithCommandDescription:(id)arg1`
+== returnValueFromInfo: ==
+`- (id)returnValueFromInfo:(id)arg1`
+== returnScriptResultUsingInfo: ==
+`- (void)returnScriptResultUsingInfo:(id)arg1`
+== requestDidFinish: ==
+`- (void)requestDidFinish:(id)arg1`
+== performRequestWithItems:onSCMManager ==
+`- (id)performRequestWithItems:(id)arg1 onSCMManager:(id)arg2`
+== runCommandOnItems:inProject: ==
+`- (id)runCommandOnItems:(id)arg1 inProject:(id)arg2`
+== runCommandOnProject ==
+`- (id)runCommandOnProject:(id)arg1`
+== argumentsForRequest ==
+`- (id)argumentsForRequest`
+== requestType ==
+`- (id)requestType`
