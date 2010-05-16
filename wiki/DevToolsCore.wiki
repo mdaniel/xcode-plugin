@@ -3,14 +3,14 @@
 = !DevToolsCore Framework Reference =
 The !DevToolsCore framework defines a fundamental layer for accessing Xcode. Classes in this framework primarily control anything that does not directly interact with the user interface. There are two major class groupings, classes that start with the prefix PBX and classes that start with the prefix XC. PBX usually will refer to the lower level constructs, where as XC classes will usually refer to a higher level abstraction.
 
-All specifications originate out of the !DevToolsCore framework. Additionaly one of the other major tasks for the DevToolsCore framework is for handling the structure associated with project files.
+All specifications originate out of the !DevToolsCore framework. Additionaly one of the other major tasks for the !DevToolsCore framework is for handling the structure associated with project files.
 
 ----
 *Framework* {{{/Developer/Library/PrivateFrameworks/DevToolsCore.framework}}}
 ----
 
 == Class References ==
-PBXAbstractSCMScriptCommand
+[PBXAbstractSCMScriptCommand PBXAbstractSCMScriptCommand]
 
 PBXAggregateTarget
 
