@@ -1,0 +1,31 @@
+#labels Hidden
+= PBXAbstractSCMScriptCommand Class Reference =
+----
+*Inherits from* NSObject
+----
+*Framework* {{{/Developer/Library/PrivateFrameworks/DevToolsCore.framework}}}
+----
+
+= Overview =
+----
+The `PBXAbstractSCMScriptCommand` class provides an interface for running source control commands via  a script.
+
+= Tasks =
+----
+[PBXAbstractSCMScriptCommand#initWithCommandDescription - (id)initWithCommandDescription:(id)arg1]
+
+[PBXAbstractSCMScriptCommand#returnValueFromInfo - (id)returnValueFromInfo:(id)arg1]
+
+[PBXAbstractSCMScriptCommand#returnScriptResultUsingInfo - (void)returnScriptResultUsingInfo:(id)arg1]
+
+[PBXAbstractSCMScriptCommand#requestDidFinish - (void)requestDidFinish:(id)arg1]
+
+[PBXAbstractSCMScriptCommand#performRequestWithItems_onSCMManager - (id)performRequestWithItems:(id)arg1 onSCMManager:(id)arg2]
+
+[PBXAbstractSCMScriptCommand#runCommandOnItems_inProject - (id)runCommandOnItems:(id)arg1 inProject:(id)arg2]
+
+[PBXAbstractSCMScriptCommand#runCommandOnProject - (id)runCommandOnProject:(id)arg1]
+
+[PBXAbstractSCMScriptCommand#argumentsForRequest - (id)argumentsForRequest]
+
+[#requestType - (id)requestType]
