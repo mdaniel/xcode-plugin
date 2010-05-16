@@ -1,0 +1,11 @@
+#labels Hidden
+= PBXProjectItem Class Reference =
+----
+*Inherits from* [PBXProjectItem PBXContainerItem]
+----
+*Framework* {{{/Developer/Library/PrivateFrameworks/DevToolsCore.framework}}}
+----
+
+= Overview =
+----
+The `PBXProjectItem` class represents a low level binding to an item in a project.

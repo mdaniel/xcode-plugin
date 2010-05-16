@@ -12,7 +12,7 @@ All specifications originate out of the !DevToolsCore framework. Additionaly one
 == Class References ==
 [PBXAbstractSCMScriptCommand PBXAbstractSCMScriptCommand]
 
-PBXAggregateTarget
+[PBXAggregateTarget PBXAggregateTarget]
 
 PBXAppleScriptBuildPhase
 
@@ -124,7 +124,7 @@ PBXConditionalArchivingBinding
 
 PBXContainer
 
-PBXContainerItem
+[PBXContainerItem PBXContainerItem]
 
 PBXContainerItemProxy
 
@@ -139,3 +139,11 @@ PBXDocBookmark
 PBXDylanSourceScanner
 
 PBXDynamicLibraryProductType
+
+[PBXNativeTarget PBXNativeTarget]
+
+[PBXObject PBXObject]
+
+[PBXProjectItem PBXProjectItem]
+
+[PBXTarget PBXTarget]
